@@ -1,9 +1,9 @@
-let arr = new Array(3)
+let arr = new Array(3);
 
 arr[0] = 10;
 arr[1] = 20;
 arr[2] = 30;
 arr[3] = 40;
-arr[10] = 100
+arr[10] = 100;
 
-console.log(arr)
+console.log(arr);
