@@ -5,7 +5,8 @@ let sMin = Math.min(arr[0], arr[1])
 
 for(let i = 2; i < arr.length ; i++){
     if(arr[i] > max){
-        
+        max = arr[i]
+        sMin = arr[i]
     }
 }
 
