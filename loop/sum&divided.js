@@ -5,7 +5,11 @@ if(isNaN(number)){
 }else if(number < 0){
     console.log("number should be +ve")
 }else{
-    console.log("valid number")
+     let sum = 0;
+     for (let i = 0; i <= number ; i++){
+        sum = sum + i;
+     }
+     console.log(sum)
 }
 
 // console.log(number)
