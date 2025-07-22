@@ -15,4 +15,7 @@ if(isNaN(n)){
         console.log(sum)
     }
     console.log("Valid")
+    console.log("Valid")
+    console.log("Valid")
+    console.log("Valid")
 }
