@@ -18,4 +18,5 @@ if(isNaN(n)){
     console.log("Valid")
     console.log("Valid")
     console.log("Valid")
+    // 20 > 40 false
 }
