@@ -1,8 +1,5 @@
-// swap  and add , sub, mul
+const number = parseInt(prompt("Enter the number"));
 
-let a = 10;
-let b = 20;
-
-[a, b] = [b, a];
-
-console.log(a, b);
+for (let i = 1; i <= number; i++) {
+    console.log(i);
+}
