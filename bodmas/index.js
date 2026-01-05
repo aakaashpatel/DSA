@@ -43,14 +43,27 @@
 // };
 
 // sum of even number & odd
+// const handleSubmit = () => {
+//   const number = document.getElementById("prompt").value;
+//   let sum = 0;
+//   for (let i = 1; i <= number; i++) {
+//     if (i % 2 === 0) {
+//       console.log(i);
+//       sum += i;
+//     }
+//   }
+//   console.log("sum", sum);
+// };
+
+
+// factorial 
+
 const handleSubmit = () => {
   const number = document.getElementById("prompt").value;
-  let sum = 0;
+  let product = 1;
   for (let i = 1; i <= number; i++) {
-    if (i % 2 === 0) {
-      console.log(i);
-      sum += i;
-    }
+    console.log(i)
+    product *= i
   }
-  console.log("sum", sum);
+  console.log("factorial", product);
 };
