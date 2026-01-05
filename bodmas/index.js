@@ -1,4 +1,5 @@
 const handleSubmit = () => {
+    console.time()
   const number = document.getElementById("prompt").value;
 
   let sum = 0;
@@ -6,4 +7,7 @@ const handleSubmit = () => {
     sum += i;
   }
   console.log(sum);
+  console.timeEnd();
 };
+
+// checking the time complexity
