@@ -55,15 +55,24 @@
 //   console.log("sum", sum);
 // };
 
+// factorial
 
-// factorial 
+// const handleSubmit = () => {
+//   const number = document.getElementById("prompt").value;
+//   let product = 1;
+//   for (let i = 1; i <= number; i++) {
+//     console.log(i);
+//     product *= i;
+//   }
+//   console.log("factorial", product);
+// };
 
+// even and square
 const handleSubmit = () => {
   const number = document.getElementById("prompt").value;
-  let product = 1;
-  for (let i = 1; i <= number; i++) {
-    console.log(i)
-    product *= i
+  for(let i = 1; i<= number;i++){
+    if( i % 2 === 0  && Number.isInteger(Math.sqrt(i))){
+        console.log(i)
+    }
   }
-  console.log("factorial", product);
 };
