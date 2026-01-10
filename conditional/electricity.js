@@ -1,5 +1,5 @@
 // const handleSubmit = () =>{
-   
+
 //   const number = Number(document.getElementById("prompt").value)
 //    if(!number){
 //     console.log("No number")
@@ -16,31 +16,27 @@
 // }
 // handleSubmit()
 
-// input -- 230 
-// output -- 1500 
+// input -- 230
+// output -- 1500
 
 // 30* 10 -- 100*7 -- 100*5
 
-const handleSubmit = () =>{
-   
-  const number = Number(document.getElementById("prompt").value)
-   if(!number){
-    console.log("No number")
-   }
-   let total = 0;
-   if(number > 300){
-    total += (number-300) * 12 
-   }
-   if( number > 200){
-    total += (number - 200) * 10
-   }
-   if(number > 100){
-    total +=(number - 100)* 7
-   }
-   total += number *5
-   console.log(total)
-}
-handleSubmit()
-
-
-
+const handleSubmit = () => {
+  const number = Number(document.getElementById("prompt").value);
+  if (!number) {
+    console.log("No number");
+  }
+  let total = 0;
+  if (number > 300) {
+    total += (number - 300) * 12;
+  }
+  if (number > 200) {
+    total += (number - 200) * 10;
+  }
+  if (number > 100) {
+    total += (number - 100) * 7;
+  }
+  total += number * 5;
+  console.log(total);
+};
+handleSubmit();
