@@ -9,9 +9,10 @@ const handleSubmit = () => {
     return;
   }
 
-  // ye number ko sort kar rha h .. finding the largest number 
+  // ye number ko sort kar rha h .. finding the largest number
   const sides = [a, b, c].sort((x, y) => x - y);
   const [x, y, z] = sides;
+  // dry run find
 
   // Right angle triangle
   if (x * x + y * y === z * z) {
