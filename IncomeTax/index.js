@@ -26,6 +26,5 @@ const handleSubmit = () => {
     console.log("30% Tax");
     total = (number * 30) / 100;
   }
-
   console.log("Tax Amount:", total);
 };
