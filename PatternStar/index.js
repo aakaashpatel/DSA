@@ -7,3 +7,11 @@ const handleSubmit = () =>{
         console.log(pattern)
     }
 }
+
+// dry run 
+
+// *
+console.log("*")
+console.log("**")
+console.log("***")
+console.log("****")
