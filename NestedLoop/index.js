@@ -1,43 +1,22 @@
-for (let i = 1; i <= 100; i = i + 10) {
-      for (let j = i ; j >= i + 10; i++){
-        console.log(j)
-      }
+let num = 6;
+let bag=""
+for(let i = 1; i <= num;i++){
+  bag +=i
 }
-
-
-
-
-// do more run dry 
-for (let i = 1; i <= 100; i = i + 10) {
-      for (let j = i ; j >= i + 10; i++){
-        console.log(j)
-      }
+console.log(bag)
+for(let i = 1; i <= num;i++){
+  bag +=i
 }
-
-
-
-
-// do more run dry 
-for (let i = 1; i <= 100; i = i + 10) {
-      for (let j = i ; j >= i + 10; i++){
-        console.log(j)
-      }
+console.log(bag)
+for(let i = 1; i <= num;i++){
+  bag +=i
 }
-
-
-
-
-// do more run dry
-
-
-
-for (let i = 1; i <= 100; i = i + 10) {
-      for (let j = i ; j >= i + 10; i++){
-        console.log(j)
-      }
+console.log(bag)
+for(let i = 1; i <= num;i++){
+  bag +=i
 }
-
-
-
-
-// do more run dry 
+console.log(bag)
+for(let i = 1; i <= num;i++){
+  bag +=i
+}
+console.log(bag)
